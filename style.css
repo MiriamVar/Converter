@@ -1,0 +1,44 @@
+body{
+        background-image: url("currency.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        font-family: Verdana;
+      }
+#centerBox, #anotherTable {
+  margin-left: 25%;
+}
+#centerBox{
+  margin-top: 6%;
+}
+table {
+  margin-left: 7%;
+}
+h2 {
+  margin-left: 17%;
+  color: rgb(217, 179, 140);
+}
+#btn2 {
+  margin-left: 140%;
+  border-radius: 3%;
+  border: none;
+  background-color: rgb(217, 179, 140);
+  padding: 10%;
+  margin-top: 10%;
+}
+h1{
+  color: rgb(198, 140, 83);
+}
+#btn1 {
+  border-radius: 3%;
+  border: none;
+  background-color: rgb(198, 140, 83);
+  padding: 20%;
+}
+

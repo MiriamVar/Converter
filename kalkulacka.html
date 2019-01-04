@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency</title>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+<div id="centerBox">
+  <h1>Kurzová kalkulačka</h1>
+   <table>
+    <tr>
+      <td><input type="text" placeholder="Amount" id="money"></td>
+      <td><input type="button" id="btn1" onclick="getRate()" value="Send"></td>
+    </tr>
+
+    <tr>
+     <td><label>USD: </label></td>
+     <td><div id="toUSD"></div></td> 
+    </tr>
+
+    <tr>
+      <td><label>HUF: </label></td>
+      <td><div id="toHUF"></div></td> 
+    </tr>
+
+    <tr>
+      <td><label>PLN: </label></td>
+      <td><div id="toPLN"></div></td> 
+    </tr>
+
+    <tr>
+      <td><label>RUB: </label></td>
+      <td><div id="toRUB"></div></td>
+    </tr>
+  </table>
+</div>
+
+<div id="anotherTable">
+  <h2>Výber</h2>
+  <table>
+    <tr>
+      <td><label>Z Meny:</label></td>
+      <td><select id="mena1">
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="PLN">PLN</option>
+        <option value="GBP">GBP</option>
+      </select></td>
+      <td><input type="text" placeholder="Amount" id="money2"></td>
+    </tr>
+    <tr>
+      <td><label>Do Meny:</label></td>
+      <td><select id="mena2">
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="PLN">PLN</option>
+        <option value="GBP">GBP</option>
+      </select></td>
+      <td>
+        <div id="result"></div>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="button" id="btn2" onclick="getResult()" value="Send"></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html> 
